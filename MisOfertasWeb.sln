@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MisOfertasWeb", "MisOfertasWeb\MisOfertasWeb.csproj", "{E74EB097-C7CE-4919-A756-AF77A87B8DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MisOfertasWeb.Tests", "MisOfertasWeb.Tests\MisOfertasWeb.Tests.csproj", "{AE4146A2-1658-445E-B20C-AE781008D190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E74EB097-C7CE-4919-A756-AF77A87B8DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74EB097-C7CE-4919-A756-AF77A87B8DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74EB097-C7CE-4919-A756-AF77A87B8DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74EB097-C7CE-4919-A756-AF77A87B8DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4146A2-1658-445E-B20C-AE781008D190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4146A2-1658-445E-B20C-AE781008D190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4146A2-1658-445E-B20C-AE781008D190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4146A2-1658-445E-B20C-AE781008D190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
