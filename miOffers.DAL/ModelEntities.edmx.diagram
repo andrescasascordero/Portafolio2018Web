@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="865bd62706c04276a429a4f6018a3829" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelEntities.CAMPANA" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.CUPON" Width="1.5" PointX="8.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.EMPRESA" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.MAILLIST" Width="1.5" PointX="5.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.OFERTA" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.PRODUCTO" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.PUNTOS" Width="1.5" PointX="5.25" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.ROL_USUARIO" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.RUBRO" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.TIENDA" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.TRAMO" Width="1.5" PointX="6" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.USUARIO" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelEntities.VALORACION" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="ModelEntities.CAMPANA_USUARIO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.OFERTA_CAMPANA_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.CUPON_TRAMO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.CUPON_USUARIO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.TIENDA_EMPRESA_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.MAILLIST_USUARIO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.OFERTA_PRODUCTO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.VALORACION_OFERTA_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.PRODUCTO_RUBRO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.PUNTOS_USUARIO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.USUARIO_ROL_USUARIO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.TIENDA_USUARIO_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelEntities.VALORACION_USUARIO_FK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
