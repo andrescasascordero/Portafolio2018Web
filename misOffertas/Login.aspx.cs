@@ -22,9 +22,25 @@ namespace misOffertas
             BLL.Repositorio repo = new BLL.Repositorio();
 
 
-            var a = repo.tipoUsuario(txtUsuario.Text,txtPassword.Text);
+            var Coderole = repo.tipoUsuario(txtUsuario.Text,txtPassword.Text);
+            var mensaje = "";
+            switch (Coderole.rol_usuario)
+            {
 
-            lblMensaje.Text = a.rol_usuario.ToString();
+                case 10:
+                    mensaje = "Administrador Mis Ofertas";
+                    break;
+                case 11:
+                    mensaje = "Administrador Retail";
+                    break;
+                case 12:
+                    mensaje = "Cliente Retail";
+                    break;
+                default:
+                    mensaje = "Mis Ofertas";
+                    break;
+            }
+            lblMensaje.Text = mensaje;
 
         }
     }

@@ -1,4 +1,3 @@
-C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\obj\Debug\misOffertas.csprojResolveAssemblyReference.cache
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\bin\roslyn\csc.exe
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -23,5 +22,6 @@ C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\bin\m
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\bin\myOffers.DAL.pdb
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\bin\EntityFramework.xml
+C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\obj\Debug\misOffertas.csprojResolveAssemblyReference.cache
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\obj\Debug\misOffertas.dll
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\misOffertas\obj\Debug\misOffertas.pdb
