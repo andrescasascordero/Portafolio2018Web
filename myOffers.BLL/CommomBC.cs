@@ -2,26 +2,32 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using miOffers.DAL;
+using System.Threading.Tasks;
+using myOffers.DAL;
 
 namespace myOffers.BLL
 {
     public static class CommomBC
     {
-        private static Entities _modelEntities;
+        private static Entities _entities;
 
-        public static Entities modelEntities
+        public static Entities entities
         {
-            get {
-                if (_modelEntities == null) {
-                    _modelEntities = new Entities();
+            get
+            {
+                if (_entities == null)
+                {
 
+                    _entities = new Entities();
                 }
-                return _modelEntities;
+
+                return _entities;
 
             }
-            
+            set { _entities = value; }
+
         }
 
     }
 }
+

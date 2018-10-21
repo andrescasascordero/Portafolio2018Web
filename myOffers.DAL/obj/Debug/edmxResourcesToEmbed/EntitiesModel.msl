@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="CAMPANA">
+      <EntityTypeMapping TypeName="Model.CAMPANA">
+        <MappingFragment StoreEntitySet="CAMPANA">
+          <ScalarProperty Name="ID_CAMPANA" ColumnName="ID_CAMPANA" />
+          <ScalarProperty Name="NOMBRE_CAMPANA" ColumnName="NOMBRE_CAMPANA" />
+          <ScalarProperty Name="FECHA_INICIO" ColumnName="FECHA_INICIO" />
+          <ScalarProperty Name="FECHA_FIN" ColumnName="FECHA_FIN" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="USUARIO_FK" ColumnName="USUARIO_FK" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CUPON">
+      <EntityTypeMapping TypeName="Model.CUPON">
+        <MappingFragment StoreEntitySet="CUPON">
+          <ScalarProperty Name="ID_CUPON" ColumnName="ID_CUPON" />
+          <ScalarProperty Name="PDF" ColumnName="PDF" />
+          <ScalarProperty Name="TOPE_MAXIMO" ColumnName="TOPE_MAXIMO" />
+          <ScalarProperty Name="DESCUENTO" ColumnName="DESCUENTO" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="VENCIMIENTO" ColumnName="VENCIMIENTO" />
+          <ScalarProperty Name="CONDICIONES" ColumnName="CONDICIONES" />
+          <ScalarProperty Name="USUARIO_FK" ColumnName="USUARIO_FK" />
+          <ScalarProperty Name="TRAMO_FK" ColumnName="TRAMO_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMPRESA">
+      <EntityTypeMapping TypeName="Model.EMPRESA">
+        <MappingFragment StoreEntitySet="EMPRESA">
+          <ScalarProperty Name="ID_EMPRESA" ColumnName="ID_EMPRESA" />
+          <ScalarProperty Name="NOMBRE_EMPRESA" ColumnName="NOMBRE_EMPRESA" />
+          <ScalarProperty Name="RAZON_SOCIAL" ColumnName="RAZON_SOCIAL" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MAILLIST">
+      <EntityTypeMapping TypeName="Model.MAILLIST">
+        <MappingFragment StoreEntitySet="MAILLIST">
+          <ScalarProperty Name="ID_MAILLIST" ColumnName="ID_MAILLIST" />
+          <ScalarProperty Name="SUSCRITO" ColumnName="SUSCRITO" />
+          <ScalarProperty Name="USUARIO_FK" ColumnName="USUARIO_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OFERTA">
+      <EntityTypeMapping TypeName="Model.OFERTA">
+        <MappingFragment StoreEntitySet="OFERTA">
+          <ScalarProperty Name="ID_OFERTA" ColumnName="ID_OFERTA" />
+          <ScalarProperty Name="CANTIDAD_MINIMA" ColumnName="CANTIDAD_MINIMA" />
+          <ScalarProperty Name="CANTIDAD_MAXIMA" ColumnName="CANTIDAD_MAXIMA" />
+          <ScalarProperty Name="PRECIO_NORMAL" ColumnName="PRECIO_NORMAL" />
+          <ScalarProperty Name="PRECIO_OFERTA" ColumnName="PRECIO_OFERTA" />
+          <ScalarProperty Name="IMAGEN" ColumnName="IMAGEN" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="CAMPANA_FK" ColumnName="CAMPANA_FK" />
+          <ScalarProperty Name="PRODUCTO_FK" ColumnName="PRODUCTO_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCTO">
+      <EntityTypeMapping TypeName="Model.PRODUCTO">
+        <MappingFragment StoreEntitySet="PRODUCTO">
+          <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+          <ScalarProperty Name="NOMBRE_PRODUCTO" ColumnName="NOMBRE_PRODUCTO" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="PERECIBLE" ColumnName="PERECIBLE" />
+          <ScalarProperty Name="MARCA" ColumnName="MARCA" />
+          <ScalarProperty Name="RUBRO_FK" ColumnName="RUBRO_FK" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PUNTOS">
+      <EntityTypeMapping TypeName="Model.PUNTOS">
+        <MappingFragment StoreEntitySet="PUNTOS">
+          <ScalarProperty Name="ID_PUNTOS" ColumnName="ID_PUNTOS" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+          <ScalarProperty Name="USUARIO_FK" ColumnName="USUARIO_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROL_USUARIO">
+      <EntityTypeMapping TypeName="Model.ROL_USUARIO">
+        <MappingFragment StoreEntitySet="ROL_USUARIO">
+          <ScalarProperty Name="ID_ROL_USUARIO" ColumnName="ID_ROL_USUARIO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RUBRO">
+      <EntityTypeMapping TypeName="Model.RUBRO">
+        <MappingFragment StoreEntitySet="RUBRO">
+          <ScalarProperty Name="ID_RUBRO" ColumnName="ID_RUBRO" />
+          <ScalarProperty Name="NOMBRE_RUBRO" ColumnName="NOMBRE_RUBRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIENDA">
+      <EntityTypeMapping TypeName="Model.TIENDA">
+        <MappingFragment StoreEntitySet="TIENDA">
+          <ScalarProperty Name="ID_TIENDA" ColumnName="ID_TIENDA" />
+          <ScalarProperty Name="NOMBRE_TIENDA" ColumnName="NOMBRE_TIENDA" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="EMPRESA_FK" ColumnName="EMPRESA_FK" />
+          <ScalarProperty Name="USUARIO_FK" ColumnName="USUARIO_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRAMO">
+      <EntityTypeMapping TypeName="Model.TRAMO">
+        <MappingFragment StoreEntitySet="TRAMO">
+          <ScalarProperty Name="ID_TRAMO" ColumnName="ID_TRAMO" />
+          <ScalarProperty Name="MINIMO" ColumnName="MINIMO" />
+          <ScalarProperty Name="MAXIMO" ColumnName="MAXIMO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO">
+      <EntityTypeMapping TypeName="Model.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="NOMBRES_USUARIO" ColumnName="NOMBRES_USUARIO" />
+          <ScalarProperty Name="APELLIDO_PATERNO" ColumnName="APELLIDO_PATERNO" />
+          <ScalarProperty Name="APELLIDO_MATERNO" ColumnName="APELLIDO_MATERNO" />
+          <ScalarProperty Name="RUT" ColumnName="RUT" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="ROL_USUARIO_FK" ColumnName="ROL_USUARIO_FK" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+          <ScalarProperty Name="CONTRASENA" ColumnName="CONTRASENA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VALORACION">
+      <EntityTypeMapping TypeName="Model.VALORACION">
+        <MappingFragment StoreEntitySet="VALORACION">
+          <ScalarProperty Name="ID_VALORACION" ColumnName="ID_VALORACION" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="IMAGEN" ColumnName="IMAGEN" />
+          <ScalarProperty Name="CALIDAD" ColumnName="CALIDAD" />
+          <ScalarProperty Name="ATENCION" ColumnName="ATENCION" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="COMENTARIO" ColumnName="COMENTARIO" />
+          <ScalarProperty Name="OFERTA_FK" ColumnName="OFERTA_FK" />
+          <ScalarProperty Name="USUARIO_FK" ColumnName="USUARIO_FK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DELETECAMPANA" FunctionName="Model.Store.DELETECAMPANA" />
+    <FunctionImportMapping FunctionImportName="DELETECUPON" FunctionName="Model.Store.DELETECUPON" />
+    <FunctionImportMapping FunctionImportName="DELETEEMPRESA" FunctionName="Model.Store.DELETEEMPRESA" />
+    <FunctionImportMapping FunctionImportName="DELETEMAILLIST" FunctionName="Model.Store.DELETEMAILLIST" />
+    <FunctionImportMapping FunctionImportName="DELETEOFERTA" FunctionName="Model.Store.DELETEOFERTA" />
+    <FunctionImportMapping FunctionImportName="DELETEPRODUCTO" FunctionName="Model.Store.DELETEPRODUCTO" />
+    <FunctionImportMapping FunctionImportName="DELETEPUNTOS" FunctionName="Model.Store.DELETEPUNTOS" />
+    <FunctionImportMapping FunctionImportName="DELETEROLUSUARIO" FunctionName="Model.Store.DELETEROLUSUARIO" />
+    <FunctionImportMapping FunctionImportName="DELETERUBRO" FunctionName="Model.Store.DELETERUBRO" />
+    <FunctionImportMapping FunctionImportName="DELETETIENDA" FunctionName="Model.Store.DELETETIENDA" />
+    <FunctionImportMapping FunctionImportName="DELETETRAMO" FunctionName="Model.Store.DELETETRAMO" />
+    <FunctionImportMapping FunctionImportName="DELETEUSUARIO" FunctionName="Model.Store.DELETEUSUARIO" />
+    <FunctionImportMapping FunctionImportName="DELETEVALORACION" FunctionName="Model.Store.DELETEVALORACION" />
+    <FunctionImportMapping FunctionImportName="ELIMINAREMPRESA" FunctionName="Model.Store.ELIMINAREMPRESA" />
+    <FunctionImportMapping FunctionImportName="ELIMINARTIENDA" FunctionName="Model.Store.ELIMINARTIENDA" />
+    <FunctionImportMapping FunctionImportName="ELIMINARUSUARIO" FunctionName="Model.Store.ELIMINARUSUARIO" />
+    <FunctionImportMapping FunctionImportName="ELIMMINARCAMPANA" FunctionName="Model.Store.ELIMMINARCAMPANA" />
+    <FunctionImportMapping FunctionImportName="INSERTCAMPANA" FunctionName="Model.Store.INSERTCAMPANA" />
+    <FunctionImportMapping FunctionImportName="INSERTCUPON" FunctionName="Model.Store.INSERTCUPON" />
+    <FunctionImportMapping FunctionImportName="INSERTEMPRESA" FunctionName="Model.Store.INSERTEMPRESA" />
+    <FunctionImportMapping FunctionImportName="INSERTMAILLIST" FunctionName="Model.Store.INSERTMAILLIST" />
+    <FunctionImportMapping FunctionImportName="INSERTOFERTA" FunctionName="Model.Store.INSERTOFERTA" />
+    <FunctionImportMapping FunctionImportName="INSERTPRODUCTO" FunctionName="Model.Store.INSERTPRODUCTO" />
+    <FunctionImportMapping FunctionImportName="INSERTPUNTOS" FunctionName="Model.Store.INSERTPUNTOS" />
+    <FunctionImportMapping FunctionImportName="INSERTROLUSUARIO" FunctionName="Model.Store.INSERTROLUSUARIO" />
+    <FunctionImportMapping FunctionImportName="INSERTRUBRO" FunctionName="Model.Store.INSERTRUBRO" />
+    <FunctionImportMapping FunctionImportName="INSERTTIENDA" FunctionName="Model.Store.INSERTTIENDA" />
+    <FunctionImportMapping FunctionImportName="INSERTTRAMO" FunctionName="Model.Store.INSERTTRAMO" />
+    <FunctionImportMapping FunctionImportName="INSERTUSUARIO" FunctionName="Model.Store.INSERTUSUARIO" />
+    <FunctionImportMapping FunctionImportName="INSERTVALORACION" FunctionName="Model.Store.INSERTVALORACION" />
+    <FunctionImportMapping FunctionImportName="SELECTCAMPANA" FunctionName="Model.Store.SELECTCAMPANA" />
+    <FunctionImportMapping FunctionImportName="SELECTCUPON" FunctionName="Model.Store.SELECTCUPON" />
+    <FunctionImportMapping FunctionImportName="SELECTEMPRESA" FunctionName="Model.Store.SELECTEMPRESA" />
+    <FunctionImportMapping FunctionImportName="SELECTMAILLIST" FunctionName="Model.Store.SELECTMAILLIST" />
+    <FunctionImportMapping FunctionImportName="SELECTOFERTA" FunctionName="Model.Store.SELECTOFERTA" />
+    <FunctionImportMapping FunctionImportName="SELECTPRODUCTO" FunctionName="Model.Store.SELECTPRODUCTO" />
+    <FunctionImportMapping FunctionImportName="SELECTPUNTOS" FunctionName="Model.Store.SELECTPUNTOS" />
+    <FunctionImportMapping FunctionImportName="SELECTROL" FunctionName="Model.Store.SELECTROL" />
+    <FunctionImportMapping FunctionImportName="SELECTROLUSUARIO" FunctionName="Model.Store.SELECTROLUSUARIO" />
+    <FunctionImportMapping FunctionImportName="SELECTRUBRO" FunctionName="Model.Store.SELECTRUBRO" />
+    <FunctionImportMapping FunctionImportName="SELECTTIENDA" FunctionName="Model.Store.SELECTTIENDA" />
+    <FunctionImportMapping FunctionImportName="SELECTTRAMO" FunctionName="Model.Store.SELECTTRAMO" />
+    <FunctionImportMapping FunctionImportName="SELECTUSUARIO" FunctionName="Model.Store.SELECTUSUARIO" />
+    <FunctionImportMapping FunctionImportName="SELECTVALORACION" FunctionName="Model.Store.SELECTVALORACION" />
+    <FunctionImportMapping FunctionImportName="SP_LOGIN" FunctionName="Model.Store.SP_LOGIN" />
+    <FunctionImportMapping FunctionImportName="UPDATECAMPANA" FunctionName="Model.Store.UPDATECAMPANA" />
+    <FunctionImportMapping FunctionImportName="UPDATECUPON" FunctionName="Model.Store.UPDATECUPON" />
+    <FunctionImportMapping FunctionImportName="UPDATEEMPRESA" FunctionName="Model.Store.UPDATEEMPRESA" />
+    <FunctionImportMapping FunctionImportName="UPDATEMAILLIST" FunctionName="Model.Store.UPDATEMAILLIST" />
+    <FunctionImportMapping FunctionImportName="UPDATEOFERTA" FunctionName="Model.Store.UPDATEOFERTA" />
+    <FunctionImportMapping FunctionImportName="UPDATEPRODUCTO" FunctionName="Model.Store.UPDATEPRODUCTO" />
+    <FunctionImportMapping FunctionImportName="UPDATEPUNTOS" FunctionName="Model.Store.UPDATEPUNTOS" />
+    <FunctionImportMapping FunctionImportName="UPDATEROLUSUARIO" FunctionName="Model.Store.UPDATEROLUSUARIO" />
+    <FunctionImportMapping FunctionImportName="UPDATERUBRO" FunctionName="Model.Store.UPDATERUBRO" />
+    <FunctionImportMapping FunctionImportName="UPDATETIENDA" FunctionName="Model.Store.UPDATETIENDA" />
+    <FunctionImportMapping FunctionImportName="UPDATETRAMO" FunctionName="Model.Store.UPDATETRAMO" />
+    <FunctionImportMapping FunctionImportName="UPDATEUSUARIO" FunctionName="Model.Store.UPDATEUSUARIO" />
+    <FunctionImportMapping FunctionImportName="UPDATEVALORACION" FunctionName="Model.Store.UPDATEVALORACION" />
+  </EntityContainerMapping>
+</Mapping>
