@@ -4,5 +4,6 @@ C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\myOffers.DAL\bin\
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\myOffers.DAL\bin\Debug\EntityFramework.dll
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\myOffers.DAL\bin\Debug\Oracle.ManagedDataAccess.dll
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\myOffers.DAL\bin\Debug\EntityFramework.xml
+C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\myOffers.DAL\obj\Debug\myOffers.DAL.csprojResolveAssemblyReference.cache
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\myOffers.DAL\obj\Debug\myOffers.DAL.dll
 C:\Users\ian\Source\Repos\andrescasascordero\Portafolio2018Web\myOffers.DAL\obj\Debug\myOffers.DAL.pdb
