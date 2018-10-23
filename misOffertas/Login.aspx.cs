@@ -4,12 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DAL = myOffers.DAL;
-using BLL= myOffers.BLL;
+using BLL = myOffers.BLL;
 
 namespace misOffertas
 {
-    public partial class Login : System.Web.UI.Page
+    public partial class login : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -22,7 +21,7 @@ namespace misOffertas
             BLL.Repositorio repo = new BLL.Repositorio();
 
 
-            var Coderole = repo.tipoUsuario(txtUsuario.Text,txtPassword.Text);
+            var Coderole = repo.tipoUsuario(txtUsuario.Text, txtPassword.Text);
             var mensaje = "";
             switch (Coderole.rol_usuario)
             {
@@ -41,7 +40,6 @@ namespace misOffertas
                     break;
             }
             lblMensaje.Text = mensaje;
-
         }
     }
 }
